@@ -1,0 +1,77 @@
+.header{
+    width: 100%;
+    height: 1080px;
+}
+div.title{
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+h5{
+    text-align: left;
+}
+p.title {
+    padding-right: 33%;
+    padding-left: 33%;
+}
+.align{
+    text-align: center;
+}
+p.interior{
+    padding-left: 20%;
+    padding-right: 20% ;
+}
+.footer{
+    width: 100%;
+    height: 330px;
+}
+p.about-us{
+    padding-right: 10%;
+}
+address{
+    margin-bottom: 0;
+}
+div.final{
+    text-align: left;
+}
+.image{
+    padding-left: 50px;
+}
+h1{
+    padding-top: 160px;
+}
+p.subtitle{
+    padding-right: 105px;
+}
+.form{
+    margin-top: 160px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.label-align{
+    text-align: right;
+}
+.form-control{
+    border-radius: 0;
+    margin-bottom: 7px;
+
+}
+p.pickup{
+    color: #586471;
+    font-weight: 400;
+}
+.btn{
+    width: 100%;
+    margin-top: 25px;
+}
+.nav{
+    text-align: center;
+}
+a.fixed{
+    padding-top: 10%;
+    padding-right: 3%;
+}
+.logo{
+    margin-top: -10px;
+}

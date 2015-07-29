@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
+    <title>Day 2 Bootstrap</title>
+    <link href = "css/bootstrap.min.css" rel = "stylesheet">
+    <link rel = "stylesheet" type ="text/css"  href = "positions.css">
+    <link rel = "stylesheet" type ="text/css"  href = "design.css">
+    <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<header class = "header">
+    <div class = "row">
+
+        <nav class="navbar navbar-default navbar-fixed-top nav">
+            <div class="container">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class = "col-sm-5" >
+                        <a class="navbar-brand logo" href="#">
+                            <img alt="Brand" src="images/logo.jpg">
+                        </a>
+                    </div>
+
+                    <div class = "col-sm-6 col-sm-offset-1 fixed">
+                       <ul>
+                           <li class = "fixed"><a href="/index.html" class = "fixed">Home</a></li>
+                           <li class = "fixed"><a href="/" class = "fixed">Service</a></li>
+                           <li class = "fixed"><a href="/" class = "fixed">Auto</a></li>
+                           <li class = "fixed"><a href="/" class = "fixed">Maps</a></li>
+                           <li class = "fixed"><a href="/" class = "fixed">Contact</a></li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+<!-- Form Section -->
+        <div class="col-sm-8 col-sm-offset-2">
+            <div class = "col-sm-5" >
+<!-- 460 510-->
+                <div class="panel form">
+                    <form class="form-horizontal" method="post" action = "action.php">
+                        <h2>
+                            Instant Quote:
+                        </h2>
+                        <hr>
+                        <div class="form-group ">
+                                <div class = "col-sm-12">
+                         <!-- Country -->
+                                    <div class = "col-sm-3 label-align">
+                                        <label for = "country">Country:</label>
+                                    </div>
+                                    <div class = "col-sm-9">
+                                        <select id="country" class="form-control" name = "Country">
+                                            <option selected = "selected" hidden>select...</option>
+                                            <option>Italia</option>
+                                            <option>Spain</option>
+                                            <option>Romania</option>
+                                            <option>Hungary</option>
+                                            <option>Russia</option>
+                                            <option>Ukraine</option>
+                                            <option>Germany</option>
+                                        </select>
+                                    </div>
+                        <!-- From -->
+                                    <div class = "col-sm-3 label-align">
+                                        <label for="from">From:</label>
+                                    </div>
+
+                                    <div class = "col-sm-9">
+                                        <select id="from" class="form-control" name = "From">
+                                            <option selected = "selected" hidden>select...</option>
+                                            <option>Italia</option>
+                                            <option>Spain</option>
+                                            <option>Romania</option>
+                                            <option>Hungary</option>
+                                            <option>Russia</option>
+                                            <option>Ukraine</option>
+                                            <option>Germany</option>
+                                        </select>
+                                    </div>
+                        <!-- To -->
+                                    <div class = "col-sm-3 label-align">
+                                        <label for="from">To:</label>
+                                    </div>
+
+                                    <div class = "col-sm-9">
+                                        <select id="to" class="form-control" name = "To">
+                                            <option selected = "selected" hidden>select...</option>
+                                            <option>Italia</option>
+                                            <option>Spain</option>
+                                            <option>Romania</option>
+                                            <option>Hungary</option>
+                                            <option>Russia</option>
+                                            <option>Ukraine</option>
+                                            <option>Germany</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class = "col-sm-12">
+                                    <hr>
+                        <!--Passengers-->
+                                    <div class = "col-sm-3 label-align">
+                                        <label for="from">Passengers:</label>
+                                    </div>
+
+                                    <div class = "col-sm-9">
+                                        <select id="Passengers" class="form-control" name="Passengers">
+                                            <option selected = "selected" hidden>select..</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                        <p class ="pickup">
+                                            Pickup Time
+                                        </p>
+                                    </div>
+                        <!--One Way-->
+                                    <div class = "col-sm-3 label-align">
+                                        <label for="from"> One way:</label>
+                                    </div>
+
+                                    <div class = "col-sm-3">
+                                        <select id="one" class="form-control" name = "One">
+                                            <option  selected = "selected" hidden> 00 </option>
+                                            <option> 01</option>
+                                            <option> 02</option>
+                                            <option> 03</option>
+                                            <option> 04</option>
+                                            <option> 05</option>
+                                            <option> 06</option>
+                                            <option> 07</option>
+                                            <option> 08</option>
+                                            <option> 09</option>
+                                            <option> 10</option>
+                                            <option> 11</option>
+                                            <option> 12</option>
+                                        </select>
+                                        <p class ="pickup">
+                                            Return Time
+                                        </p>
+                                    </div>
+
+                                    <div class = "col-sm-3">
+                                        <select id="way" class="form-control" name = "Way">
+                                            <option selected = "selected" hidden> 00 </option>
+                                            <option> 01</option>
+                                            <option> 02</option>
+                                            <option> 03</option>
+                                            <option> 04</option>
+                                            <option> 05</option>
+                                            <option> 06</option>
+                                            <option> 07</option>
+                                            <option> 08</option>
+                                            <option> 09</option>
+                                            <option> 10</option>
+                                            <option> 11</option>
+                                            <option> 12</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            <div class = "col-sm-12">
+                        <!--Return Time-->
+                                    <div class = "col-sm-3 label-align">
+                                        <label for="from"> One way:</label>
+                                    </div>
+
+                                    <div class = "col-sm-3">
+                                        <select id="return" class="form-control" name = "Return">
+                                            <option selected = "selected" hidden> 00 </option>
+                                            <option> 01</option>
+                                            <option> 02</option>
+                                            <option> 03</option>
+                                            <option> 04</option>
+                                            <option> 05</option>
+                                            <option> 06</option>
+                                            <option> 07</option>
+                                            <option> 08</option>
+                                            <option> 09</option>
+                                            <option> 10</option>
+                                            <option> 11</option>
+                                            <option> 12</option>
+                                        </select>
+                                    </div>
+
+                                    <div class = "col-sm-3">
+                                        <select id="time" class="form-control" name = "Time">
+                                            <option selected = "selected" hidden> 00 </option>
+                                            <option> 01</option>
+                                            <option> 02</option>
+                                            <option> 03</option>
+                                            <option> 04</option>
+                                            <option> 05</option>
+                                            <option> 06</option>
+                                            <option> 07</option>
+                                            <option> 08</option>
+                                            <option> 09</option>
+                                            <option> 10</option>
+                                            <option> 11</option>
+                                            <option> 12</option>
+                                        </select>
+                                    </div>
+                            </div>
+                        <!-- Type Payment-->
+
+                            <div class = "col-sm-12">
+                                <hr>
+                                <div class = "col-sm-3 label-align">
+                                    <label for = "pay">Type of payment:</label>
+                                </div>
+                                <div class = "col-sm-9">
+                                    <select id="pay" class="form-control" name = "Payment">
+                                        <option selected = "selected" hidden>Choose payment type..</option>
+                                        <option>Cash Payment</option>
+                                        <option>Postal Order</option>
+                                        <option>Cheque</option>
+                                        <option>PayPal</option>
+                                    </select>
+                                </div>
+
+                                <div class = "col-sm-9 col-sm-offset3">
+                                    <button type="submit" class="btn">BOOK NOW</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class = "col-sm-7 subtitle">
+                <h1>
+                    Maecenas vel rhoncus
+                </h1>
+                <p class = "subtitle">
+                    Pellentesque est eros, lacinia in leo sit amet, cursus suscipit justo. Nullam non nisl ultrices neque haretra tincidunt.
+                </p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<article>
+    <div class = "article">
+        <br><br>
+        <div class = "row">
+            <div class = "col-sm-12 title">
+                <h3>
+                    Lorem ipsum dolor
+                </h3>
+                <img src = "images/line.jpg" alt = "blue line image" align = "center">
+                <p class = "title">
+                    Praesent placerat ullamcorper porttitor. Nunc molestie semnec dui semper, sit amet convallis orci
+                </p>
+            </div>
+        </div>
+        <br><br>
+<!--Circles Section -->
+        <div>
+            <div class="row align">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class = "col-sm-4" >
+                    <img src = "images/1.jpg" alt = "image" class ="img-circle">
+                    <h4>
+                        Fusce et arcu
+                    </h4>
+                    <p class = "interior">
+                        Morbi pulvinar metus non tortor pulvinar, vitae sollicitudin augue pulvinar. Cras fermentum, velit
+                    </p>
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="images/2.jpg" alt = "image" class ="img-circle">
+                    <h4>
+                        Fusce et arcu
+                    </h4>
+                    <p class = "interior">
+                        Morbi pulvinar metus non tortor pulvinar, vitae sollicitudin augue pulvinar. Cras fermentum, velit
+                    </p>
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="images/3.jpg" alt = "image" class ="img-circle">
+                    <h4>
+                        Fusce et arcu
+                    </h4>
+                    <p class = "interior">
+                        Morbi pulvinar metus non tortor pulvinar, vitae sollicitudin augue pulvinar. Cras fermentum, velit
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+        <div class = "footer">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class = "col-xs-4" >
+                    <br>
+                    <h5>
+                        About Us
+                    </h5>
+                    <br>
+                    <p class="about-us">
+                        Donec dictum fermentum nisi sit amet auctor.Pellentesque viverra, ante id euismod dignissim, ante nibh feugiat diam, commodo tristique lectus justo sit amet turpis. Sed dolor lorem, interdum
+                    </p>
+                </div>
+<!--Contact Us-->
+                <div class="col-sm-4">
+                    <br>
+                    <h5>
+                        Contact Us
+                    </h5>
+                    <address>
+                        <img src="images/a.jpg" alt="place icon">
+                        1234 Street Name, City Name, AB 12345
+                    </address>
+                    <img src = "images/b.jpg" alt="phone icon">
+                    <a href="callto:18001234567" class = "footer">1-800-123-4567</a>
+                    <br>
+
+                    <img src = "images/c.jpg" alt="phone icon">
+                    <a href="mailto:sales@company.com" class = "footer">sales@company.com</a>
+                </div>
+<!--Keep In Touch-->
+                <div class="col-sm-4">
+                    <br>
+                    <h5>
+                        Keep In Touch
+                    </h5>
+                    <img src = "images/tw.jpg" alt="twiter icon">
+                    <img src = "images/fa.jpg" alt="facebook icon">
+                    <img src = "images/go.jpg" alt="google icon">
+                </div>
+            <hr>
+            </div>
+<!--Design-->
+            <div class= "final">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <hr>
+                    <div class = "col-sm-6">
+                            Web Design BitStone SRL
+                    </div>
+
+                    <div class = "col-sm-6 menu">
+                        <ul>
+                            <li><a href="/index.html" class = "footer">Home</a></li>
+                            <li><a href="/" class = "footer">Service</a></li>
+                            <li><a href="/" class = "footer">Contact</a></li>
+                            <li><a href="/" class = "footer">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<script src = "js/jquery.js"></script>
+<script src = "js/bootstrap.min.js"></script>
+</body>
+</html>

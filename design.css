@@ -1,0 +1,89 @@
+.header{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+}
+div.title{
+    color: #003471;
+    font-family:Didact Gothic;
+}
+h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #003471;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 24px;
+}
+p.title{
+    font-size: 24px;
+}
+p.circle{
+    font-size: 16px;
+}
+.footer{
+    color: #bcbcbc;
+    background-image:url("images/footer.jpg");
+    background-repeat: no-repeat;
+}
+p.about-us {
+    font-size: 16px;
+}
+address{
+    color: #586471;
+}
+div.final {
+    color: #586471;
+}
+.menu{
+    color:#8b8d90;
+    font-size: 14px;
+    word-spacing: 40px;
+}
+h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+p.subtitle{
+    color: white;
+    font-size: 28px;
+}
+.btn{
+    background-color: #003471;
+    color: #ffffff;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+.img-circle{
+    border: 1px solid #000000;
+}
+div.fixed{
+    list-style-type: none;
+    font-size: 16px;
+}
+li.fixed{
+    display: inline;
+
+}
+a.fixed {
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+    font-size: 16px;
+}
+li{
+    display: inline;
+    color: #586471;
+}
+a.footer{
+    color: #586471;
+}
